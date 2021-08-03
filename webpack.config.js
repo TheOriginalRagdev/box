@@ -20,7 +20,7 @@ module.exports = (env) => ({
 
   resolve: {
     alias: {
-      "@babylonjs": path.resolve("node_modules/@babylonjs"),
+      "@socket.io": path.resolve("node_modules/@socket.io"),
       box: path.resolve(__dirname, "core/box"),
       loader: path.resolve(__dirname, "core/loader"),
     },
@@ -54,8 +54,8 @@ module.exports = (env) => ({
       cacheGroups: {
         babylon: {
           chunks: "initial",
-          test: /babylonjs/,
-          filename: "babylon.js",
+          test: /socket.io/,
+          filename: "socket.io.js",
         },
       },
     },
