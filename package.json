@@ -9,9 +9,9 @@
   },
   "author": "mod3d",
   "dependencies": {
-    "@babylonjs/core": "^4.2.0",
-    "@babylonjs/inspector": "^4.2.0",
-    "babylonjs": "^4.2.0",
+    "@socket.io/client-dist": "^4.1.3",
+    "@socket.io/lib": "^4.2.0",
+    "socket.io": "^4.1.3",
     "express": "4",
     "game-inputs": "^0.4.1",
     "noa-engine": "^0.30.0",
@@ -26,3 +26,6 @@
     "webpack-dev-server": "^3.11.2"
   }
 }
+{
+  "dependencies": {
+  }
